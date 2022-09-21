@@ -12,9 +12,10 @@ import sys
 import cv2
 
 def main():
-
-    data_root = "./IQ_signal"  # Set your data root
-    write_root = "./spectrogram" # Set your save file root
+    data_root = "./week03\week3\IQ_signal"  # Set your data root
+    write_root = "./week03\week3\spectrogram" # Set your save file root    
+    # data_root = "./IQ_signal"  # Set your data root
+    # write_root = "./spectrogram" # Set your save file root
 
     if os.path.isdir(write_root) == False:
         os.mkdir(write_root)
@@ -36,11 +37,13 @@ class CustomDataSet(torch.utils.data.Dataset):
 
         self.DirFolder = os.listdir(self.data_root)
 
-        numberOfData = 0
+        totalnumberOfData = 0
         start=datetime.now()
         for FolderIndex in range(len(self.DirFolder)):
+            numberofData = 0
             self.DirData = os.listdir(self.data_root + '/' + self.DirFolder[FolderIndex])
-            numberOfData += len(self.DirData)
+            totalnumberOfData += len(self.DirData)
+            numberOfData = len(self.DirData)
             print('Try Folder : ', FolderIndex)
             #label = pd.read_csv(label_root + '/' + self.DirFolder[FolderIndex] +'.csv')
             for DataIndex in range(len(self.DirData)):
@@ -53,16 +56,15 @@ class CustomDataSet(torch.utils.data.Dataset):
                 S=10*np.log10(S)
                 S= (((S-np.min(S)) / (np.max(S)-np.min(S))) * 255).astype(np.uint8)
                 S= S[::-1]
-                
                 #y1 = label.iloc[DataIndex,1]
                 y1 = self.DirData[DataIndex]
                 self.data.append([S])
                 self.y.append([y1])
-
+            print('Folder Name in given IQ Signal file',self.DirFolder[FolderIndex],'there are # of files data :', numberOfData)
             
         #self.data = torch.from_numpy(np.array(self.data))
         #self.y = torch.from_numpy(np.array(self.y))
-        print('Total Data : ', numberOfData)
+        print('Total Data : ', totalnumberOfData)
         print('Data reading time spent : ', datetime.now()-start)
 
 
