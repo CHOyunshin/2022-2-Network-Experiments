@@ -1,0 +1,51 @@
+/var/folders/9y/x8rs72cn71v99tfw7qhh607c0000gn/T/ipykernel_9565/188260598.py
+./labeled_data_self
+start time :  2022-10-07 14:52:38.494107
+Epoch: 1 | Train loss: inf, Valid loss: 2.275521, Valid Acc: 136 / 604 | Time spent: 0:00:00.456237
+Epoch: 2 | Train loss: 1.647866, Valid loss: 0.748470, Valid Acc: 435 / 604 | Time spent: 0:00:00.393308
+Epoch: 3 | Train loss: 0.577784, Valid loss: 0.429748, Valid Acc: 500 / 604 | Time spent: 0:00:00.404229
+Epoch: 4 | Train loss: 0.366743, Valid loss: 0.493703, Valid Acc: 497 / 604 | Time spent: 0:00:00.423969
+Epoch: 5 | Train loss: 0.306355, Valid loss: 0.317051, Valid Acc: 531 / 604 | Time spent: 0:00:00.446969
+Epoch: 6 | Train loss: 0.185503, Valid loss: 0.378676, Valid Acc: 526 / 604 | Time spent: 0:00:00.427313
+Epoch: 7 | Train loss: 0.187899, Valid loss: 0.274455, Valid Acc: 539 / 604 | Time spent: 0:00:00.453345
+Epoch: 8 | Train loss: 0.110298, Valid loss: 0.346672, Valid Acc: 527 / 604 | Time spent: 0:00:00.432630
+Epoch: 9 | Train loss: 0.119150, Valid loss: 0.229254, Valid Acc: 543 / 604 | Time spent: 0:00:00.398486
+Epoch: 10 | Train loss: 0.065528, Valid loss: 0.318449, Valid Acc: 536 / 604 | Time spent: 0:00:00.382318
+Epoch: 11 | Train loss: 0.093159, Valid loss: 0.250005, Valid Acc: 543 / 604 | Time spent: 0:00:00.367962
+Epoch: 12 | Train loss: 0.042922, Valid loss: 0.332812, Valid Acc: 533 / 604 | Time spent: 0:00:00.367468
+Epoch: 13 | Train loss: 0.066063, Valid loss: 0.343151, Valid Acc: 544 / 604 | Time spent: 0:00:00.398122
+Epoch: 14 | Train loss: 0.032409, Valid loss: 0.293986, Valid Acc: 547 / 604 | Time spent: 0:00:00.374378
+Epoch: 15 | Train loss: 0.037467, Valid loss: 0.297618, Valid Acc: 548 / 604 | Time spent: 0:00:00.365555
+Epoch: 16 | Train loss: 0.018282, Valid loss: 0.330741, Valid Acc: 549 / 604 | Time spent: 0:00:00.381121
+Epoch: 17 | Train loss: 0.042193, Valid loss: 0.271208, Valid Acc: 544 / 604 | Time spent: 0:00:00.378135
+Epoch: 18 | Train loss: 0.017284, Valid loss: 0.295203, Valid Acc: 540 / 604 | Time spent: 0:00:00.368756
+Epoch: 19 | Train loss: 0.017758, Valid loss: 0.367799, Valid Acc: 549 / 604 | Time spent: 0:00:00.365140
+Epoch: 20 | Train loss: 0.006313, Valid loss: 0.407041, Valid Acc: 554 / 604 | Time spent: 0:00:00.360617
+Epoch: 21 | Train loss: 0.003895, Valid loss: 0.312919, Valid Acc: 553 / 604 | Time spent: 0:00:00.364696
+Epoch: 22 | Train loss: 0.002182, Valid loss: 0.338822, Valid Acc: 549 / 604 | Time spent: 0:00:00.361333
+Epoch: 23 | Train loss: 0.001302, Valid loss: 0.318145, Valid Acc: 550 / 604 | Time spent: 0:00:00.366020
+Epoch: 24 | Train loss: 0.000990, Valid loss: 0.339277, Valid Acc: 551 / 604 | Time spent: 0:00:00.364021
+Epoch: 25 | Train loss: 0.000843, Valid loss: 0.358269, Valid Acc: 551 / 604 | Time spent: 0:00:00.368001
+Epoch: 26 | Train loss: 0.000718, Valid loss: 0.340115, Valid Acc: 549 / 604 | Time spent: 0:00:00.366547
+Epoch: 27 | Train loss: 0.000637, Valid loss: 0.355504, Valid Acc: 551 / 604 | Time spent: 0:00:00.363329
+Epoch: 28 | Train loss: 0.000546, Valid loss: 0.360706, Valid Acc: 550 / 604 | Time spent: 0:00:00.362999
+Epoch: 29 | Train loss: 0.000501, Valid loss: 0.357269, Valid Acc: 551 / 604 | Time spent: 0:00:00.366249
+Epoch: 30 | Train loss: 0.000427, Valid loss: 0.400350, Valid Acc: 550 / 604 | Time spent: 0:00:00.361222
+Best epoch :  9
+Accuracy of label 0 : 15 / 15
+Accuracy of label 1 : 33 / 33
+Accuracy of label 2 : 15 / 18
+Accuracy of label 3 : 19 / 32
+Accuracy of label 4 : 30 / 31
+Accuracy of label 5 : 51 / 52
+Accuracy of label 6 : 17 / 18
+Accuracy of label 7 : 14 / 21
+Accuracy of label 8 : 19 / 21
+Accuracy of label 9 : 15 / 16
+Accuracy of label 10 : 0 / 0
+Accuracy of label 11 : 0 / 0
+Accuracy of label 12 : 23 / 27
+Accuracy of label 13 : 18 / 20
+Accuracy of label 14 : 0 / 0
+Accuracy of label 15 : 0 / 0
+Test Accuracy : 88.487%, (269 / 304)
