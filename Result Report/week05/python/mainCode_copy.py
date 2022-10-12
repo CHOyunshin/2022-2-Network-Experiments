@@ -16,6 +16,7 @@ import imageio.v2 as imageio
 import copy
 
 from models.CustomModelExample import MyClassifier
+from models.Mymodel import MyClassifier
 
 def main():
     # GPU Allocating
@@ -32,6 +33,8 @@ def main():
     print('==> Dataset selecting..')
     # data_root = "week05_CNN/week5/labeled_data" # Set your data root
     data_root = "week05_CNN/week5/labeled_data_self" # Set your data root
+    # albel 1 data 
+
     MyDataSet = CustomDataSet(data_root)
 
     # Data Set Split
